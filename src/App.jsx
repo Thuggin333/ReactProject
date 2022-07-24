@@ -93,4 +93,24 @@ export class Solution extends React.Component {
   }
 }
 
+export class Cont extends React.Component {
+  render() {
+    return (
+      <div
+        style={{ flexDirection: this.props.ltr ? "row" : "row-reverse" }}
+        className="cont"
+      >
+        <div className="leftBlock">
+          <img src={this.props.src} alt="" />
+        </div>
+        <div className="rightBlock">
+          <p>{this.props.text}</p>
+          <h1>{this.props.titleInfo}</h1>
+          <p className="2">{this.props.titleInfo2}</p>
+        </div>
+      </div>
+    );
+  }
+}
+
 export default Header;

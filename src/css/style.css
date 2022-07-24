@@ -2,6 +2,7 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  font-family: Arial, Helvetica, sans-serif;
 }
 
 header {
@@ -98,4 +99,17 @@ header .logoBlockCont .register p {
 .solution .solutionDownBlock {
   display: flex;
   justify-content: center;
+}
+
+.cont {
+  display: flex;
+  justify-content: space-evenly;
+  margin: 0 20%;
+}
+.cont .leftBlock img {
+  width: 400px;
+  height: 275px;
+}
+.cont .rightBlock {
+  width: 500px;
 }/*# sourceMappingURL=style.css.map */
